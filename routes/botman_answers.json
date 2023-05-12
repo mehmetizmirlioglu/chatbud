@@ -1,0 +1,46 @@
+[
+  {
+    "message_regex": "hayır|sonlandır",
+    "response_text": "Tekrar görüşmek üzere kendine iyi bak..."
+  },
+  {
+    "message_regex": "müşteri hizmetleri|arama|iletişim|telefon|görüşme|yetkili|yardım",
+    "response_text": "Çözüm Merkezi için aramanız gereken telefon numarası: 444 2 864"
+  },
+  {
+    "message_regex": "başka konu|yeni konu|konu|diğer",
+    "conversation": "HelloConversation"
+  },
+  {
+    "message_regex": "applyBau|apply",
+    "conversation": "ApplyBAU"
+  },
+  {
+    "message_regex": "tercih|çalışma|spor bursu|ösym|geri ödeme|burs",
+    "conversation": "ScholarshipFlow"
+  },
+  {
+    "message_regex": "ücret|çek|senet|döviz|yüksek lisans|dondurmak|ücret|program ücreti|taksit",
+    "conversation": "FeeAndPaymentFlow"
+  },
+  {
+    "message_regex": "global|erasmus|ülke|yurt dışı ödeme|exchange",
+    "conversation": "InternationalConnectionsFlow"
+  },
+  {
+    "message_regex": "iş bulma|mezuniyet sonrası|sertifika|servis|etkinlik|organizasyon|staj",
+    "conversation": "FacilityFlow"
+  },
+  {
+    "message_regex": "spor salonu|salon|ana bina|beşiktaş|kampüs|fakülte",
+    "conversation": "PhysicalEnvironmentFlow"
+  },
+  {
+    "message_regex": "hazırlık|hazırlık okulu|yarım dönem|zorluk|zor|geçme|geçebilme|seviye",
+    "conversation": "PreparatorySchoolFlow"
+  },
+  {
+    "message_regex": "dersler|özel yetenek|özel yetenek sınavı|işlenme|işleniyor|devam zorunlu|devam zorunluluğu|geçerli diploma|yüksek lisans bursu",
+    "conversation": "AcademicFlow"
+  }
+]
